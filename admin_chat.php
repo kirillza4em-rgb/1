@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Ошибка подключения: " . $conn->connect_error);
 }
 
-// Запрашиваем имена пользователей
+// Запрашиваем имена пользователейясчмясячс
 $sql = "SELECT id, name FROM users";
 $result = $conn->query($sql);
 
@@ -251,4 +251,5 @@ function fetchNewMessages() {
         </div>
     </div>
 </body>
+
 </html>
