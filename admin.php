@@ -10,7 +10,7 @@
         function checkNewRecords() {
             fetch('check_new_records.php')
                 .then(response => response.json())
-                .then(data => {
+                .then(data => {фыафа
                     if (data.length > 0) {
                         let message = "Новые записи:\n";
                         data.forEach(record => {
@@ -44,4 +44,5 @@
         </div>     
     </div>
 </body>
+
 </html>
